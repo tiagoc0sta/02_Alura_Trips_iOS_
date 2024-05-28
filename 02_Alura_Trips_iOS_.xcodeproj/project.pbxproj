@@ -13,6 +13,8 @@
 		F061CCF32C043CA2000ACE4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F061CCF22C043CA2000ACE4D /* Base */; };
 		F061CCF52C043CA2000ACE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F061CCF42C043CA2000ACE4D /* Assets.xcassets */; };
 		F061CCF82C043CA2000ACE4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F061CCF72C043CA2000ACE4D /* Base */; };
+		F06281E52C057A96005AE6BC /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */; };
+		F06281E72C057F02005AE6BC /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F061CCF42C043CA2000ACE4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F061CCF72C043CA2000ACE4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F061CCF92C043CA2000ACE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
+		F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				F061CCF42C043CA2000ACE4D /* Assets.xcassets */,
 				F061CCF62C043CA2000ACE4D /* LaunchScreen.storyboard */,
 				F061CCF92C043CA2000ACE4D /* Info.plist */,
+				F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */,
+				F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */,
 			);
 			path = 02_Alura_Trips_iOS_;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F061CCF52C043CA2000ACE4D /* Assets.xcassets in Resources */,
+				F06281E52C057A96005AE6BC /* HomeTableViewHeader.xib in Resources */,
 				F061CCF82C043CA2000ACE4D /* Base in Resources */,
 				F061CCF32C043CA2000ACE4D /* Base in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F061CCF02C043CA2000ACE4D /* ViewController.swift in Sources */,
+				F06281E72C057F02005AE6BC /* HomeTableViewHeader.swift in Sources */,
 				F061CCEC2C043CA2000ACE4D /* AppDelegate.swift in Sources */,
 				F061CCEE2C043CA2000ACE4D /* SceneDelegate.swift in Sources */,
 			);
