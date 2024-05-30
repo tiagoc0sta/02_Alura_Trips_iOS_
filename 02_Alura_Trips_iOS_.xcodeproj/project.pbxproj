@@ -60,9 +60,9 @@
 		F05065FA2C0848A9000C4E3F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F05065FB2C0848EB000C4E3F /* Header */,
 				F061CCEF2C043CA2000ACE4D /* ViewController.swift */,
 				F061CCF12C043CA2000ACE4D /* Main.storyboard */,
+				F05065FB2C0848EB000C4E3F /* Header */,
 			);
 			path = View;
 			sourceTree = "<group>";

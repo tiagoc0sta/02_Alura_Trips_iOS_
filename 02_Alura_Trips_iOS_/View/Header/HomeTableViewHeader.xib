@@ -15,11 +15,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-gg-1C8" userLabel="Header View" customClass="HomeTableViewHeader" customModule="_2_Alura_Trips_iOS_" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
+                    <rect key="frame" x="-293" y="0.0" width="1000" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TFC trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-VI-EkT">
-                            <rect key="frame" x="34" y="35" width="93" height="33"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TFC trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-VI-EkT">
+                            <rect key="frame" x="328" y="48" width="92.666666666666686" height="33"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
@@ -27,10 +26,12 @@
                     </subviews>
                     <color key="backgroundColor" red="0.11764705882352941" green="0.23137254901960785" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
+                        <constraint firstAttribute="width" constant="1000" id="NQa-zR-ooV"/>
+                        <constraint firstItem="zZD-VI-EkT" firstAttribute="top" secondItem="5yS-gg-1C8" secondAttribute="top" constant="48" id="p4E-RX-YtQ"/>
                         <constraint firstAttribute="height" constant="250" id="sWK-AH-gr6"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcF-5J-AqI" userLabel="Banner View">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcF-5J-AqI" userLabel="Banner View" customClass="HomeTableViewHeader" customModule="_2_Alura_Trips_iOS_" customModuleProvider="target">
                     <rect key="frame" x="19" y="130" width="375" height="130"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oPg-Tq-E0C">
@@ -62,15 +63,16 @@
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="5yS-gg-1C8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9cu-Yu-s6R"/>
-                <constraint firstItem="5yS-gg-1C8" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CpO-Ve-GKM"/>
                 <constraint firstItem="FcF-5J-AqI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="19" id="JFs-uk-fwD"/>
                 <constraint firstItem="FcF-5J-AqI" firstAttribute="bottom" secondItem="5yS-gg-1C8" secondAttribute="bottom" constant="10" id="UEH-Aw-NYw"/>
-                <constraint firstItem="5yS-gg-1C8" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="W2t-qR-AZp"/>
+                <constraint firstItem="5yS-gg-1C8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="WM2-Rt-0kF"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FcF-5J-AqI" secondAttribute="trailing" constant="20" id="YkV-cO-VzC"/>
+                <constraint firstItem="zZD-VI-EkT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="35" id="qxr-JJ-mVX"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="bannerImageView" destination="nFk-7f-MuI" id="QRV-7E-iuv"/>
+                <outlet property="bannerView" destination="FcF-5J-AqI" id="A4J-2U-owk"/>
                 <outlet property="headerView" destination="5yS-gg-1C8" id="ifi-La-PiJ"/>
                 <outlet property="titleLabel" destination="zZD-VI-EkT" id="l8f-vK-N5Z"/>
             </connections>
