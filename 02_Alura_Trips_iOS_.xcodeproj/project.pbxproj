@@ -41,6 +41,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F05065F82C08485B000C4E3F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F061CCEB2C043CA2000ACE4D /* AppDelegate.swift */,
+				F061CCED2C043CA2000ACE4D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F05065F92C084889000C4E3F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F05065FA2C0848A9000C4E3F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F05065FB2C0848EB000C4E3F /* Header */,
+				F061CCEF2C043CA2000ACE4D /* ViewController.swift */,
+				F061CCF12C043CA2000ACE4D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F05065FB2C0848EB000C4E3F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */,
+				F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F05065FC2C08490C000C4E3F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F061CCDF2C043CA2000ACE4D = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +102,13 @@
 		F061CCEA2C043CA2000ACE4D /* 02_Alura_Trips_iOS_ */ = {
 			isa = PBXGroup;
 			children = (
-				F061CCEB2C043CA2000ACE4D /* AppDelegate.swift */,
-				F061CCED2C043CA2000ACE4D /* SceneDelegate.swift */,
-				F061CCEF2C043CA2000ACE4D /* ViewController.swift */,
-				F061CCF12C043CA2000ACE4D /* Main.storyboard */,
+				F05065F82C08485B000C4E3F /* AppDelegate */,
+				F05065F92C084889000C4E3F /* Model */,
+				F05065FA2C0848A9000C4E3F /* View */,
+				F05065FC2C08490C000C4E3F /* ViewModel */,
 				F061CCF42C043CA2000ACE4D /* Assets.xcassets */,
 				F061CCF62C043CA2000ACE4D /* LaunchScreen.storyboard */,
 				F061CCF92C043CA2000ACE4D /* Info.plist */,
-				F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */,
-				F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */,
 			);
 			path = 02_Alura_Trips_iOS_;
 			sourceTree = "<group>";

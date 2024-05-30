@@ -17,8 +17,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5yS-gg-1C8" userLabel="Header View" customClass="HomeTableViewHeader" customModule="_2_Alura_Trips_iOS_" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TFC Trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-VI-EkT">
-                            <rect key="frame" x="34" y="35" width="95" height="33"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TFC trips" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZD-VI-EkT">
+                            <rect key="frame" x="34" y="35" width="93" height="33"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="23"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,19 +33,28 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcF-5J-AqI" userLabel="Banner View">
                     <rect key="frame" x="19" y="130" width="375" height="130"/>
                     <subviews>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oPg-Tq-E0C">
-                            <rect key="frame" x="0.0" y="0.0" width="200" height="128"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oPg-Tq-E0C">
+                            <rect key="frame" x="0.0" y="0.0" width="200" height="130"/>
                             <color key="backgroundColor" red="0.31764705882352939" green="0.70196078431372544" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nFk-7f-MuI" userLabel="Banner Image View">
-                            <rect key="frame" x="198" y="0.0" width="177" height="128"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nFk-7f-MuI" userLabel="Banner Image View">
+                            <rect key="frame" x="198" y="0.0" width="177" height="130"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="177" id="8fP-Nf-YQ4"/>
+                            </constraints>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
+                        <constraint firstItem="oPg-Tq-E0C" firstAttribute="leading" secondItem="FcF-5J-AqI" secondAttribute="leading" id="3KA-43-1hG"/>
+                        <constraint firstAttribute="trailing" secondItem="nFk-7f-MuI" secondAttribute="trailing" id="3c0-6Y-bGN"/>
                         <constraint firstAttribute="height" constant="130" id="ATG-2x-Zlp"/>
+                        <constraint firstAttribute="bottom" secondItem="nFk-7f-MuI" secondAttribute="bottom" id="KZy-jj-Tds"/>
+                        <constraint firstItem="oPg-Tq-E0C" firstAttribute="top" secondItem="FcF-5J-AqI" secondAttribute="top" id="NSC-Ig-FAW"/>
+                        <constraint firstItem="nFk-7f-MuI" firstAttribute="top" secondItem="FcF-5J-AqI" secondAttribute="top" id="QG4-hF-VJw"/>
+                        <constraint firstAttribute="bottom" secondItem="oPg-Tq-E0C" secondAttribute="bottom" id="UuI-VK-fwy"/>
+                        <constraint firstItem="nFk-7f-MuI" firstAttribute="width" secondItem="FcF-5J-AqI" secondAttribute="width" multiplier="0.472" id="dNy-qI-l5D"/>
+                        <constraint firstItem="oPg-Tq-E0C" firstAttribute="width" secondItem="FcF-5J-AqI" secondAttribute="width" multiplier="0.533333" id="goa-sa-NaU"/>
                     </constraints>
                 </view>
             </subviews>
