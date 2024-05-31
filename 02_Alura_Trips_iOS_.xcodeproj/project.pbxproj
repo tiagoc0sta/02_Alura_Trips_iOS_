@@ -15,6 +15,8 @@
 		F061CCF82C043CA2000ACE4D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F061CCF72C043CA2000ACE4D /* Base */; };
 		F06281E52C057A96005AE6BC /* HomeTableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */; };
 		F06281E72C057F02005AE6BC /* HomeTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */; };
+		F09BEF712C0A761E00C49C07 /* TripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F09BEF702C0A761E00C49C07 /* TripTableViewCell.xib */; };
+		F09BEF722C0A761E00C49C07 /* TripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09BEF6F2C0A761E00C49C07 /* TripTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F061CCF92C043CA2000ACE4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F06281E42C057A96005AE6BC /* HomeTableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewHeader.xib; sourceTree = "<group>"; };
 		F06281E62C057F02005AE6BC /* HomeTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewHeader.swift; sourceTree = "<group>"; };
+		F09BEF6F2C0A761E00C49C07 /* TripTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTableViewCell.swift; sourceTree = "<group>"; };
+		F09BEF702C0A761E00C49C07 /* TripTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TripTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 				F061CCEF2C043CA2000ACE4D /* ViewController.swift */,
 				F061CCF12C043CA2000ACE4D /* Main.storyboard */,
 				F05065FB2C0848EB000C4E3F /* Header */,
+				F09BEF6E2C0A754000C49C07 /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -111,6 +116,15 @@
 				F061CCF92C043CA2000ACE4D /* Info.plist */,
 			);
 			path = 02_Alura_Trips_iOS_;
+			sourceTree = "<group>";
+		};
+		F09BEF6E2C0A754000C49C07 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F09BEF6F2C0A761E00C49C07 /* TripTableViewCell.swift */,
+				F09BEF702C0A761E00C49C07 /* TripTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +188,7 @@
 				F061CCF52C043CA2000ACE4D /* Assets.xcassets in Resources */,
 				F06281E52C057A96005AE6BC /* HomeTableViewHeader.xib in Resources */,
 				F061CCF82C043CA2000ACE4D /* Base in Resources */,
+				F09BEF712C0A761E00C49C07 /* TripTableViewCell.xib in Resources */,
 				F061CCF32C043CA2000ACE4D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +204,7 @@
 				F06281E72C057F02005AE6BC /* HomeTableViewHeader.swift in Sources */,
 				F061CCEC2C043CA2000ACE4D /* AppDelegate.swift in Sources */,
 				F061CCEE2C043CA2000ACE4D /* SceneDelegate.swift in Sources */,
+				F09BEF722C0A761E00C49C07 /* TripTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
